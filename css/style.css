@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -54,19 +58,17 @@ img {
     text-align: center;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: #FFFFFF
-    ;
+    color: #FFFFFF;
 }
 
 .header-arrow {
     width: 48px;
     height: 48px;
-    background-color: rgb(128, 131, 131);
+    background-color: rgb(240, 240, 245);
     position: absolute;
     bottom: 30px;
     left: 50%;
     transform: translate(-50%,0);
-
 }
 
 .info {
@@ -127,7 +129,6 @@ img {
     font-weight: 600;
     font-size: 24px;
     line-height: 130%;
-
 }
 
 .card p {
@@ -205,7 +206,6 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     transition: all 0.2s ease-in;
-
 }
 
 .footer-button:hover {
